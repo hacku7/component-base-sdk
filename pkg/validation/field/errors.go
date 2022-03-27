@@ -76,10 +76,10 @@ func (v *Error) ErrorBody() string {
 
 // ErrorType is a machine readable value providing more detail about why
 // a field is invalid.  These values are expected to match 1-1 with
-// CauseType in api/types.go.
+// CauseType in api-base/types.go.
 type ErrorType string
 
-// TODO: These values are duplicated in api/types.go, but there's a circular dep.  Fix it.
+// TODO: These values are duplicated in api-base/types.go, but there's a circular dep.  Fix it.
 const (
 	// ErrorTypeNotFound is used to report failure to find a requested value
 	// (e.g. looking up an ID).  See NotFound().
