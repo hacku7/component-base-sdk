@@ -296,8 +296,8 @@ linters-settings:
       modules:
         - github.com/pkg/errors:
             recommendations:
-              - github.com/hbird/errors-base-sdk
-            reason: "`github.com/hbird/errors-base-sdk` is the log package used by hbird projects."
+              - github.com/hbrid/errors-base-sdk
+            reason: "`github.com/hbrid/errors-base-sdk` is the log package used by hbrid projects."
       versions:
         - github.com/MakeNowJust/heredoc:
             version: "> 2.0.9"
